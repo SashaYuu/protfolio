@@ -80,7 +80,6 @@ line-height: 1;
 }
 .progress-bar {
     width: 10px;
-    background-color: aqua;
 }
 .promo-title span{
     color: orange;
@@ -88,6 +87,9 @@ line-height: 1;
 
 .progress {
 z-index: -10
+}
+.progress, .progress-stacked {
+    width: 50px;
 }
 
 .border-end{
@@ -104,7 +106,16 @@ z-index: -10
 }
 #contactBtn{
     border-radius: 0px;
+    color: #E6AC45;
     
+}
+#contactBtn ::hover{
+    background-color: wheat;
+ 
+}
+.btn-outline-warning:hover {
+    --bs-btn-hover-bg: none;
+    opacity: 70%;
 }
 
 
